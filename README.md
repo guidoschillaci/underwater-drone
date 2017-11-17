@@ -15,12 +15,29 @@ See license and disclaimer information below.
 
 # Instructions
 
-The models provided here allows for multiple propeller and ballast configurations. They are compatible with the 4" watertight enclosure sold by <a href="https://www.bluerobotics.com/">BlueRobotics</a>. Propellers are compatible with Turnigy Aerodrive DST brushless motors (tested DST-700 and DST-1200, so far).
-
+The models provided here allows for multiple propeller and ballast configurations. They are compatible with the 4" watertight enclosure sold by <a href="https://www.bluerobotics.com/">BlueRobotics</a>. 
 
 <img src="images/configurations.jpg" alt="Drone" style="width: 200px;"/>
 
+## Thrusters
+Thrusters (inspired on BlueRobotics thrusters) are compatible with Turnigy Aerodrive DST brushless motors (tested DST-700 and DST-1200, so far).
+The following figures illustrate a mounted propeller and an exploded version showing its components.
 
+<img src="images/thruster_mounted.jpg" alt="Drone" style="width: 200px;"/>
+
+<img src="images/thruster_unmounted.jpg" alt="Drone" style="width: 200px;"/>
+
+The 3D printable files (.STL) of each component can be found in the Models folder. Starting from the bottom left object (not considering screws and nuts):
+
+* thruster_main.stl
+
+* propeller_dst_2_bluerov_adapter.stl: this adapter is required if you mount a  BlueRobotics T200 propeller.
+
+* propeller.stl: the figure illustrates the original T200 propeller developed by BlueRobotics, which can be ordered from Bluerobotics' store. Here, we do provide only a modified version of it. This version is natively compatible with Turnigy DST motors. You do not need to print motor_dst_2_bluerov_propeller if you use our modified version of the T200 propeller
+
+* motor: the figure illustrate a Turnigy DST-700, not provided here
+
+* thruster_motor_mount.stl: the motor is mounted on this X shaped component, which is then mounted onto the thurster main component
 
 # License and disclaimer
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The work and the models provided here have been created by Fabio Schillaci and Guido Schillaci and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
