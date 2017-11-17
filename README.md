@@ -20,7 +20,8 @@ The models provided here allows for multiple propeller and ballast configuration
 <img src="images/configurations.jpg" alt="Drone" style="width: 200px;"/>
 
 ## Thrusters
-Thrusters (inspired on BlueRobotics thrusters) are compatible with Turnigy Aerodrive DST brushless motors (tested DST-700 and DST-1200, so far).
+Thrusters (inspired on BlueRobotics thrusters) are compatible with Turnigy Aerodrive DST brushless motors (tested DST-700 and DST-1200, so far). Please note that the models provided here are not compatible with the M100 and M200 motors sold by BlueRobotics.
+
 The following figures illustrate a mounted propeller and an exploded version showing its components.
 
 <img src="images/thruster_mounted.jpg" alt="Drone" style="width: 200px;"/>
@@ -31,13 +32,15 @@ The 3D printable files (.STL) of each component can be found in the Models folde
 
 * thruster_main.stl
 
-* propeller_dst_2_bluerov_adapter.stl: this adapter is required if you mount a  BlueRobotics T200 propeller.
+* propeller_dst_2_bluerov_adapter.stl
 
-* propeller.stl: the figure illustrates the original T200 propeller developed by BlueRobotics, which can be ordered from Bluerobotics' store. Here, we do provide only a modified version of it. This version is natively compatible with Turnigy DST motors. You do not need to print motor_dst_2_bluerov_propeller if you use our modified version of the T200 propeller
+* propeller.stl: the propeller is a modification of the original T200 propeller developed by BlueRobotics, which can be ordered from Bluerobotics' store. The version provided here fits better with Turnigy DST motors.
 
 * motor: the figure illustrate a Turnigy DST-700, not provided here
 
-* thruster_motor_mount.stl: the motor is mounted on this X shaped component, which is then mounted onto the thurster main component
+* thruster_motor_mount.stl: the motor is mounted on this X shaped component, which is then mounted onto the thurster main component. This mounts has holes compatible with DST motors. It has not been tested yet with Bluerobotics M100 or M200 motors, so it may be not compatible.
+
+* thruster_cap.stl
 
 # License and disclaimer
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The work and the models provided here have been created by Fabio Schillaci and Guido Schillaci and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
