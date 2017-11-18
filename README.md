@@ -17,6 +17,8 @@ See license and disclaimer information below.
 
 The models provided here allows for multiple propeller and ballast configurations. They are compatible with the 4" watertight enclosure sold by <a href="https://www.bluerobotics.com/">BlueRobotics</a>. 
 
+The 3D model files (step and igs) and 3D printable files (.stl) of each component can be found in the Models folder. 
+
 It is recommended to 3D print the objects with solid infill. 
 
 
@@ -31,19 +33,46 @@ The following figures illustrate a mounted propeller and an exploded version sho
 
 <img src="images/thruster_unmounted.jpg" alt="Drone" style="width: 200px;"/>
 
-The 3D printable files (.STL) of each component can be found in the Models folder. Starting from the bottom left object (not considering screws and nuts):
+The objects are named in the Models folder as follows. Starting from the bottom left object (not considering nuts and bolts):
 
-* thruster_main.stl
+* thruster_main (.igs, .stp, .stl)
 
-* propeller_dst_2_bluerov_adapter.stl
+* propeller_dst_2_bluerov_adapter (.igs, .stp, .stl)
 
-* propeller.stl: the propeller is a modification of the original T200 propeller developed by BlueRobotics, which can be ordered from Bluerobotics' store. The version provided here fits better with Turnigy DST motors.
+* propeller (.igs, .stp, .stl): the propeller is a modification of the original T200 propeller developed by BlueRobotics, which can be ordered from Bluerobotics' store. The version provided here fits better with Turnigy DST motors.
 
-* motor: the figure illustrate a Turnigy DST-700, not provided here
+* motor: the figure illustrate a Turnigy DST-700. Model is not provided here
 
-* thruster_motor_mount.stl: the motor is mounted on this X shaped component, which is then mounted onto the thurster main component. This mounts has holes compatible with DST motors. It has not been tested yet with Bluerobotics M100 or M200 motors, so it may be not compatible.
+* thruster_motor_mount (.igs, .stp, .stl): the motor is mounted onto this X shaped component. The thruster_motor_mount is then mounted onto the thurster_main component. This mount has holes aligned with those of DST motors bases. It has not been tested yet with Bluerobotics M100 or M200 motors, so it may be not compatible.
 
-* thruster_cap.stl
+* thruster_cap.stl (.igs, .stp, .stl)
+
+## Clamps and posterior support
+
+Two sets of clamps have been designed that allow easy customisation of thrusters and ballast configurations.
+
+<img src="images/clamps.jpg" alt="clamps" style="width: 200px;"/>
+
+The model files are named as follows
+
+* clamp_anterior_superior (.igs, .stp, .stl): the upper part of the anterior clamp. It has two mounting points (left and right) for motors, ballasts or adapters.
+
+* clamp_anterior_inferior (.igs, .stp, .stl): the lower part of the anterior clamp. It has two mounting points (+45 degrees, -45 degrees) for motors, ballasts or adapters.
+
+* stick (.igs, .stp, .stl): this stick can be screwed to both the posterior and anterior lower clamps. 
+
+* clamp_posterior_superior (.igs, .stp, .stl): the upper part of the posterior clamp. It has two mounting points (left and right) for motors, ballasts or adapters. It has an additional structure for mounting the support for rear motors or ballasts. 
+
+* clamp_posterior_inferior (.igs, .stp, .stl): the lower part of the posterior clamp. It has two mounting points (+45 degrees, -45 degrees) for motors, ballasts or adapters. It has an additional structure for mounting the support for rear motors or ballasts.
+
+* rear_clamp_connector (.igs, .stp, .stl): it connects the two posterios clamps and provides an additional mounting point for a motor, ballast or adapter.
+
+* posterior_clamp_2_tube_connector (.igs, .stp, .stl): this small elements allows to screw the posterior clamps (the same can be used for both the upper and lower parts) into the cap of the Bluerobotics watertight enclosure.
+
+## Mounting points
+
+Clamps and rear connector have several mounting points for motors, ballasts and adapters. Adapters allow rotating of the mounting point
+
 
 # License and disclaimer
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The work and the models provided here have been created by Fabio Schillaci and Guido Schillaci and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
