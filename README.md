@@ -17,6 +17,9 @@ See license and disclaimer information below.
 
 The models provided here allows for multiple propeller and ballast configurations. They are compatible with the 4" watertight enclosure sold by <a href="https://www.bluerobotics.com/">BlueRobotics</a>. 
 
+It is recommended to 3D print the objects with solid infill. 
+
+
 <img src="images/configurations.jpg" alt="Drone" style="width: 200px;"/>
 
 ## Thrusters
