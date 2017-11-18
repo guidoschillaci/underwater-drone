@@ -71,8 +71,37 @@ The model files are named as follows
 
 ## Mounting points
 
-Clamps and rear connector have several mounting points for motors, ballasts and adapters. Adapters allow rotating of the mounting point
+Clamps and rear connector have several mounting points for motors, ballasts and adapters. 
 
+For instance, a motor can be plugged onto a mounting point of the anterior clamp as in the following illustration:
+
+<img src="images/mounting_point.jpg" alt="mounting_point" style="width: 200px;"/>
+
+We designed three adapters to allow rotating the original mounting point.
+
+<img src="images/adapters.jpg" alt="adapters" style="width: 200px;"/>
+
+* adapter_90 (.igs, .stp, .stl): allows rotating the original mounting point of 90 degrees. It can be used, for instance, to mount a vertical thruster, as in the following illustration:
+
+<img src="images/adapter_90.jpg" alt="adapter 90" style="width: 200px;"/>
+
+* adapter_round[_male, _female] (.igs, .stp, .stl): allows 5 different rotation angles within 90 degrees. It can be used, for instance, to mount a diagonal thruster, as in the following illustration:
+
+<img src="images/adapter_round.jpg" alt="adapter round" style="width: 200px;"/>
+
+* adapter_split (.igs, .stp, .stl): splits a mounting point into two, rotated at +45 and -45 degrees in respect to the original mounting point orientation. A combination of this and the previous adapters allows for a great number of possible thruster configurations, as in the example illustrated in the following figure.
+
+<img src="images/adapter_split.jpg" alt="adapter split" style="width: 200px;"/>
+
+## Ballast
+
+We designed a ballast structure with mounting points compatibles with those described above. The structure is a cylinder that can be filled with ballast, such as stainless steel balls (we used 10mm steel ball; each ballast cylinder filled with these balls weighted around 300-400 grams).
+
+The ballast structure is composed by a cylinder and two caps:
+
+* ballast_cylinder (.igs, .stp, .stl): it has two separate compartments that can be filled to better set the center of mass of the drone. It has a mounting point that fits with those of the clamps and adapters
+
+* ballast_cap (.igs, .stp, .stl): two caps have to be printed to close the cylinder on both sides.
 
 # License and disclaimer
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The work and the models provided here have been created by Fabio Schillaci and Guido Schillaci and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
